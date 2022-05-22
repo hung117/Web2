@@ -1,0 +1,166 @@
+/*style for header + body + footer*/
+
+* {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+header.navBar li a,
+header,
+.Logo,
+.Info,
+footer {
+    color: white;
+    background-color: rgb(27, 37, 59);
+}
+
+.Logo {
+    font-size: large;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+.Info>div {
+    width: 318px;
+}
+
+.Info-Left>button {
+    color: white;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+}
+
+.Info-Right {
+    padding: 60px;
+    color: white;
+    background-color: rgb(103, 103, 103);
+}
+
+.Info2 {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Info2-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 30px;
+}
+
+.Info2-img img {
+    display: block;
+    width: 138px;
+    height: 138px;
+    /* flex: 1; */
+    border-radius: 8px;
+    border: 3px solid rgb(26, 128, 217);
+    margin-bottom: 20px;
+}
+
+.Quote {
+    background-color: rgba(223, 223, 223, 0.947);
+    color: black;
+    font-size: x-large;
+    font-style: italic;
+    /* height: 400px; */
+    /**/
+    /* flex-basis: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Quote>div {
+    width: 51%;
+}
+
+.Quote-Sign {
+    font-weight: bold;
+}
+
+footer {
+    padding: 10px 0 10px 0;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* background-color: aquamarine; */
+}
+
+.Ad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px 10px 30px;
+    width: 51%;
+    border-radius: 8px;
+}
+
+.Ad button {
+    display: block;
+    height: 30px;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 1px 20px 1px 20px;
+}
+
+.Ad,
+button {
+    background-color: rgb(26, 128, 217);
+    color: white;
+}
